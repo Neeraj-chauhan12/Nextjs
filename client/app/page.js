@@ -1,8 +1,7 @@
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to Neeraj chauahn</h1>
-      <p>This is my first Next.js website</p>
+    <div className=" flex items-center justify-center">
+      <h1 className="text-4xl font-bold">Hello Next.js 🚀</h1>
     </div>
   );
 }

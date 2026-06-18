@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "My First Next App",
   description: "Learning Next.js",
@@ -8,13 +10,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <nav>
-          <h1>My Website</h1>
+          <h1 >My Website</h1>
         </nav>
 
         {children}
 
         <footer>
-          <p>Copyright 2026</p>
+          <p className="bg-gray-500">Copyright 2026</p>
         </footer>
       </body>
     </html>
