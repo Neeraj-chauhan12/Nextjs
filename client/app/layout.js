@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
         <nav className="bg-gray-500 text-white flex gap-4 items-center justify-end px-5 ">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
+          <Link href="/product/455">Product</Link>
         </nav>
 
         {children}
