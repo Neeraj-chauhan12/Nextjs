@@ -10,7 +10,7 @@ export default function Home() {
 
         <input name="email" placeholder="Enter Email" />
 
-        <button>Add User</button>
+        <button>Add User data</button>
       </form>
     </div>
   );
